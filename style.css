@@ -220,7 +220,7 @@ ul {
     padding: 0;
 }
 
-li {
+li, a {
     display: inline-block;
     font-weight: 600;
 }
