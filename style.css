@@ -227,7 +227,7 @@ li, a {
     font-family: inherit;
 }
 
-li:not(:last-child) {
+a:not(:last-child) {
     margin-right: 100px;
 }
 
