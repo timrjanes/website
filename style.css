@@ -223,6 +223,8 @@ ul {
 li, a {
     display: inline-block;
     font-weight: 600;
+    color: #cbcbcb;
+    font-family: inherit;
 }
 
 li:not(:last-child) {
