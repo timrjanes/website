@@ -176,6 +176,7 @@ body {
     margin: 1.2em;
     right: 0;
     z-index: 1;
+    color: #cbcbcb;
 }
 
 button {
@@ -223,7 +224,7 @@ ul {
 li, a {
     display: inline-block;
     font-weight: 600;
-    color: #cbcbcb;
+    color: #3a3b3c;
     font-family: inherit;
 }
 
