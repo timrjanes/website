@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: 'Aeonik';
     src: url('aeonik/Aeonik-ThinItalic.woff2') format('woff2'),
@@ -167,16 +166,14 @@ body {
 .wrapper {
     width: 100%;
     height: 100vh;
-    margin: 0;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
     padding: 0;
 }
 
-.menu-btn {
+footer, .push {
     position: fixed;
-    margin: 1.2em;
-    right: 0;
-    z-index: 1;
-    color: #cbcbcb;
+    height: 142px; /* .push must be the same height as .footer */
+    transform: translate(0, 575%);
 }
 
 button {
@@ -191,7 +188,7 @@ button:focus {
 i {
     outline: none;
     padding: 1em;
-    color: #ffffff;
+    color: #cbcbcb;
 }
 
 .row,
@@ -219,17 +216,14 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: inline;
 }
 
-li, a {
+li {
     display: inline-block;
     font-weight: 600;
-    color: #3a3b3c;
-    font-family: inherit;
 }
 
-a:not(:last-child) {
+li:not(:last-child) {
     margin-right: 100px;
 }
 
