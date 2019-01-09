@@ -191,21 +191,8 @@ i {
     color: #cbcbcb;
 }
 
-.row,
-.col-lg {
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.col-lg {
-    height: 100vh;
-}
-
-.col-lg.overlay {
-    background: #cbcbcb;
-    color: #333333;
-    position: absolute;
-    top: -100%;
+a {
+    color: inherit;
 }
 
 ul {
